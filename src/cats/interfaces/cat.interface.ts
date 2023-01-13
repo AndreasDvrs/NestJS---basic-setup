@@ -1,9 +1,9 @@
 export interface FindOneCatParams {
-    id: string;
+	id: string;
 }
 
 export interface Cat {
-    name: string;
-    age: number;
-    breed: string;
+	name: string;
+	age: number;
+	breed: string;
 }
