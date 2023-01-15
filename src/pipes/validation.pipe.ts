@@ -6,7 +6,7 @@ import {
 } from '@nestjs/common';
 import { plainToInstance } from 'class-transformer';
 import { validate } from 'class-validator';
-import { NativeTypes } from '../constants/native-types';
+import { NativeTypes } from '../cats/constants/native-types';
 
 @Injectable()
 export class JoiValidationPipe implements PipeTransform<any> {
